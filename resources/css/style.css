@@ -1,0 +1,103 @@
+/*Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  background-color: black;
+  opacity: 0.9;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+
+header .logo {
+  height: 50px;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+
+nav ul li {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.content {
+  padding-top: 70px;
+}
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  height: 700px;
+  width: 1200px;
+  border: 1px solid white;
+  /*  Background image for .main-banner section */
+  background-image: image(../images/img-mission-background.jpg);
+}
+
+
+.teas {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.tom-grid-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tom.image {
+  height: 200px;
+  width: 300px;
+}
+
+.tom.label {
+  margin: 10px;
+}
+
+
+
+
+
+
+.store-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-banner {
+  background-image: image(../resources/images/img-mission-background.jpg);
+}
