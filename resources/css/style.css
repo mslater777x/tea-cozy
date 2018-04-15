@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}  */
+}  Commented out:  Universal Styles were overriding class rules*/
 
 body {
   margin: 0;
@@ -33,7 +33,6 @@ header {
 header>.logo>img {
   height: 50px;
   margin-left: 10px;
-  border: 1px solid white;
 }
 
 nav ul li {
@@ -41,7 +40,6 @@ nav ul li {
   align-items: center;
   text-decoration: underline;
   margin-right: 10px;
-  border: 1px solid green;
 }
 
 /* Page content fomatting */
@@ -54,7 +52,7 @@ nav ul li {
 }
 
 .content-sub-container {
-  margin-bottom: 25px;
+  margin-bottom: 35px;    /* Added to create space between sections */
 }
 
 .main-banner {
@@ -65,7 +63,6 @@ nav ul li {
   margin-top: 70px;
   height: 700px;
   width: 1200px;
-  border: 1px solid white;
 
 /*  Background image for .main-banner section */
   background-image: url(../images/img-mission-background.jpg);
@@ -78,6 +75,11 @@ nav ul li {
   align-items: center;
   width: inherit;
   background-color: black;
+  margin: 15px 0;
+}
+
+.main-banner-text-elements>.text-element {
+  margin: 10px;
 }
 
 .teas {
@@ -87,12 +89,10 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
-  border: 1px solid green;
 }
 
-.teas>h2,
-.teas>h4 {
-  margin: 15px;
+.teas-text-element {
+  margin-bottom: 30px;
 }
 
 .tom-grid-container {
@@ -100,7 +100,6 @@ nav ul li {
 
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 
 .tom {
@@ -125,9 +124,9 @@ nav ul li {
   align-items: center;
   height: 500px;
   width: 1200px;
+
   /*  Background image for .locations section */
   background-image: url(../images/img-locations-background.jpg);
-  border: 1px solid green;
 }
 
 .locations>h1 {
@@ -137,9 +136,8 @@ nav ul li {
 .store-locations-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;;
+  justify-content: space-around;
   align-items: center;
-  border: 1px dashed red;
 }
 
 .store-location {
@@ -160,7 +158,6 @@ nav ul li {
   align-items: center;
   width: 100%;
   height: 200px;
-  border: 1px dashed green;
 }
 
 .footer>* {
